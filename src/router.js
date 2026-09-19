@@ -371,7 +371,7 @@ router.put('/books/:id', updateBookHandler);
  *           type: string
  *         description: The ID of the book to delete
  *     responses:
- *       '200':
+ *       '204':
  *         description: Book deleted successfully
  *       '404':
  *         description: Book not found

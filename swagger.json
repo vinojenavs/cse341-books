@@ -258,7 +258,7 @@
           }
         ],
         "responses": {
-          "200": {
+          "204": {
             "description": "Book deleted successfully"
           },
           "404": {
