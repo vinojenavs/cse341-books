@@ -2,6 +2,7 @@ import { app } from "./app.js";
 import { connectToDb } from "./src/db/connect.js";
 
 const PORT = process.env.PORT;
+const MONGODB_DB_NAME = process.env.MONGODB_DB_NAME;
 
 if (!PORT) {
     throw new Error('Port is undefined');
